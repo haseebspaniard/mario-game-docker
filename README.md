@@ -12,14 +12,14 @@ and serve a static web application inside a container.
 - **Nginx** — web server serving the static game files
 - **HTML / JavaScript / CSS** — the Mario game (client-side only)
 
----
+```
 
 ## 📁 Project Structure
 mario-game-docker/
 ├── mario-game/        # Game files (HTML, JS, CSS, assets)
 ├── Dockerfile         # Container build instructions
 └── README.md
----
+```
 
 ## 🐳 Dockerfile Explained
 
